@@ -8,7 +8,7 @@ VALUES
 ('Mountain Hike', 'A moderate hike with great views and picnic.', 'https://images.unsplash.com/photo-3', 30.00)
 RETURNING id;
 
--- Slots (use actual dates suitable to current date)
+-- Slots
 INSERT INTO slots (experience_id, slot_date, available_seats, price)
 VALUES
 (1, CURRENT_DATE + INTERVAL '3 day', 10, 25.00),
