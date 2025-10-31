@@ -5,7 +5,7 @@
 -- Dumped from database version 17rc1
 -- Dumped by pg_dump version 17rc1
 
--- Started on 2025-10-31 13:25:00
+-- Started on 2025-10-31 19:24:56
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -499,7 +499,7 @@ ALTER TABLE ONLY public.slots
     ADD CONSTRAINT slots_experience_id_fkey FOREIGN KEY (experience_id) REFERENCES public.experiences(id) ON DELETE CASCADE;
 
 
--- Completed on 2025-10-31 13:25:01
+-- Completed on 2025-10-31 19:24:57
 
 --
 -- PostgreSQL database dump complete
